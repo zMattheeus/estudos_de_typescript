@@ -21,9 +21,9 @@ const lamborghiniVel = lamborghini.velocidade;
 
 function  comparativo(carro1: number, carro2: number){
     if(ferrariVel > lamborghiniVel){
-        return "Ferrari é mais rapido"
+        return `Ferrari é mais rapido com a velocidade de ${ferrariVel} km/h`
     } else{
-        return "Lamborghini é mais rapido"
+        return `Lamborghini é mais rapido com a velocidade de ${lamborghiniVel} km/h`
     }
 }
 
